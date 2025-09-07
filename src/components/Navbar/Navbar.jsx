@@ -17,7 +17,8 @@ const Navbar = () => {
                     </div>
 
                     <Flex className='items-center'>
-                        <ul className='flex space-x-[47px] font-primary font-semibold text-[16px] text-white'>
+
+                        <Flex className='items-center space-x-[47px] font-primary font-semibold text-[16px] text-white list-none'>
                             <li>
                                 <a className='hover:text-green-500' href="">Home</a>
                             </li>
@@ -37,7 +38,9 @@ const Navbar = () => {
                             <li>
                                 <a className='hover:text-green-500' href="">Blog</a>
                             </li>
-                        </ul>
+                            
+                        </Flex>
+                        
                         <button className='ml-[72px] cursor-pointer py-[13px] px-[32px] border-2 text-white font-primary font-semibold text-[16px] hover:bg-blue-500  '>CONTACT</button>
                     </Flex>
                     
