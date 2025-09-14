@@ -9,6 +9,7 @@ import Logo from "./components/Logo/Logo"
 import Maap from "./components/Maap/Maap"
 import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
+import ImageSlider from "./components/Slider/ImageSlider"
 import Slider from "./components/Slider/Slider"
 import Supplier from "./components/Supplier/Supplier"
 
@@ -22,7 +23,8 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Supplier></Supplier>
-      <Slider></Slider>
+      {/* <Slider></Slider> */}
+      <ImageSlider></ImageSlider>
       <Services></Services>
       <Learn></Learn>
       <Logo></Logo>
@@ -31,6 +33,7 @@ function App() {
       <Contact></Contact>
       <Footer></Footer>
       <Copy></Copy>
+      
       
 
 

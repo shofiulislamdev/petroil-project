@@ -10,7 +10,7 @@ const Banner = () => {
             <Container>
                 <h1 className='w-[842px] font-primary text-[64px] font-bold text-white'>We exist since 1975 on the oil and gas industry.</h1>
 
-                <button className='py-[13px] px-[40px] bg-[#F40404] text-white font-semibold font-primary text-[16px] mt-[31px] cursor-pointer'>LEARN MORE</button>
+                <button className='py-[13px] px-[40px] bg-[#F40404] text-white font-semibold font-primary text-[16px] mt-[31px] cursor-pointer hover:bg-blue-700 hover:text-red-700'>LEARN MORE</button>
             </Container>
 
 
