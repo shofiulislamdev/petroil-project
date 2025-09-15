@@ -29,10 +29,10 @@ const Header = () => {
                         </Flex>
                         <div>
                             <Flex className='space-x-[19px]'>
-                                <FaFacebookF size={16} className='cursor-pointer'></FaFacebookF>
-                                <FaTwitter size={16} className='cursor-pointer'></FaTwitter>
-                                <FaLinkedinIn size={16} className='cursor-pointer' />
-                                <FaInstagram size={16} className='cursor-pointer' />
+                                <FaFacebookF size={16} className='cursor-pointer hover:text-blue-700'></FaFacebookF>
+                                <FaTwitter size={16} className='cursor-pointer hover:text-blue-700'></FaTwitter>
+                                <FaLinkedinIn size={16} className='cursor-pointer hover:text-blue-700' />
+                                <FaInstagram size={16} className='cursor-pointer hover:text-blue-700' />
 
                             </Flex>
 

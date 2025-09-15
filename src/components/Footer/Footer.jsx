@@ -47,11 +47,11 @@ const Footer = () => {
 
 
                     <Flex className="space-x-[12px] mt-[35px]">
-                        <FaFacebook className='text-red-700 text-[29px] cursor-pointer' />
-                        <AiFillTwitterCircle className='text-red-700 text-[29px] cursor-pointer' />
-                        <FaLinkedinIn className='text-red-700 text-[29px] cursor-pointer' />
+                        <FaFacebook className='text-red-700 text-[29px] cursor-pointer hover:text-blue-700' />
+                        <AiFillTwitterCircle className='text-red-700 text-[29px] cursor-pointer hover:text-blue-700' />
+                        <FaLinkedinIn className='text-red-700 text-[29px] cursor-pointer hover:text-blue-700' />
 
-                        <FaInstagramSquare className='text-red-700 text-[29px] cursor-pointer' />
+                        <FaInstagramSquare className='text-red-700 text-[29px] cursor-pointer hover:text-blue-700' />
 
 
 

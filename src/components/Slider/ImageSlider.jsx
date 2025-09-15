@@ -22,11 +22,11 @@ const ImageSlider = () => {
     return (
         <div>
             <Slider {...settings}>
-                <img className='w-[24%] gap-x-[30px]' src={sliderOne} alt="" />
-                <img className='w-[24%] gap-x-[30px]' src={sliderTwo} alt="" />
-                <img className='w-[24%] gap-x-[30px]' src={sliderThree} alt="" />
-                <img className='w-[24%] gap-x-[30px]' src={sliderFour} alt="" />
-                <img className='w-[24%] gap-x-[30px]' src={sliderTwo} alt="" />
+                <img className='px-[15px]' src={sliderOne} alt="" />
+                <img className='px-[15px]' src={sliderTwo} alt="" />
+                <img className='px-[15px]' src={sliderThree} alt="" />
+                <img className='px-[15px]' src={sliderFour} alt="" />
+                <img className='px-[15px]' src={sliderTwo} alt="" />
 
 
             </Slider>

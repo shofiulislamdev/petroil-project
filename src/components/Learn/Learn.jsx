@@ -16,7 +16,7 @@ const Learn = () => {
 
                     <div className='relative'>
                         <img src={learn} alt="" />
-                        <button className='bg-[#FFFFFF] mt-[19px] py-[14px] px-[30px] text-[#F40404] cursor-pointer font-primary font-semibold text-[16px] absolute top-[168px] left-[282px]'>Learn More</button>
+                        <button className='bg-[#FFFFFF] mt-[19px] py-[14px] px-[30px] text-[#F40404] cursor-pointer font-primary font-semibold text-[16px] absolute top-[168px] left-[282px] hover:bg-blue-700'>Learn More</button>
 
                     </div>
 
