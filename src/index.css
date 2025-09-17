@@ -5,3 +5,7 @@
 @theme {
   --font-primary: "Poppins", sans-serif; 
 }
+
+body {
+  overflow-x: hidden;
+}

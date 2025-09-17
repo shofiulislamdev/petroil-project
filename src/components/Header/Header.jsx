@@ -9,8 +9,8 @@ const Header = () => {
         <div className='bg-[#282828] border-b-4 border-[#FFB800] '>
             <Container>
                 <div className='font-primary py-[15px] text-white'>
-                    <Flex className='justify-between'>
-                        <Flex className='space-x-[49px]'>
+                    <div className='flex md:justify-between items-center'>
+                        <div className='md:flex space-x-[49px]'>
 
                             <Flex className='items-center'>
                                 <IoMailUnreadOutline size={20} />
@@ -26,7 +26,7 @@ const Header = () => {
 
 
 
-                        </Flex>
+                        </div>
                         <div>
                             <Flex className='space-x-[19px]'>
                                 <FaFacebookF size={16} className='cursor-pointer hover:text-blue-700'></FaFacebookF>
@@ -37,7 +37,7 @@ const Header = () => {
                             </Flex>
 
                         </div>
-                    </Flex>
+                    </div>
 
                 </div>
             </Container>

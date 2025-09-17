@@ -84,8 +84,8 @@ const Footer = () => {
                 <div>
                     <p className='font-primary font-bold text-[16px] text-white'>Certificate</p>
                     <Flex className="mt-[27px]">
-                        <div className='py-[5px] bg-white w-[110px] rounded-[4px]'>
-                            <p className='font-primary font-bold text-[24px] text-[#008AD8] ml-[9px]'>ISO 88</p>
+                        <div className='py-[5px] bg-white w-[110px] rounded-[4px] group'>
+                            <p className='font-primary font-bold text-[24px] text-[#008AD8] ml-[9px] group-hover:text-green-600'>ISO 88</p>
                             <p className='font-primary font-medium text-[8px] text-[#008AD8] ml-[9px]'>Environmentally Safe</p>
                         </div>
 
